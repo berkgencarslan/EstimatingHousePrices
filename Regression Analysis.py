@@ -76,19 +76,3 @@ print("Random Forest R2 degeri:")
 print(r2_score(y_test, rf_reg.predict(x_test)) )
 print(r2_score(y_test, rf_reg.predict(K)) )
 print(r2_score(y_test, rf_reg.predict(Z)) )
-
-"""
-from sklearn.ensemble import RandomForestClassifier
-rfc = RandomForestClassifier(n_estimators=20, )
-rfc.fit(x_train, y_train)
-y_pred = rfc.predict(x_test)
-print(y_pred)
-print(r2_score(y_test,y_pred))
-"""
-
-
-
-
-
-
-
